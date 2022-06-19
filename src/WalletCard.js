@@ -42,7 +42,7 @@ export default function WalletCard() {
     return (
         <div className="wrapped">
             <div className="walletCard">
-                <h2>{"Connection to Metamask using window.etherum methods"}</h2>
+                <h2>{"Test Connection To Metamask"}</h2>
                 <button onClick={connectWalletHandler}>{conButtonText}</button>
                 <div className="accountDisplay">
                     <h3>Address: {defaultAccount}</h3>
